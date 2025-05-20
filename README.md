@@ -5,6 +5,12 @@ This project implements and evaluates various Recurrent Neural Network (RNN) bas
 ## Disclaimer
 I have used jupyter notebooks instead of `.py` files because they give better clarity with the code. Using `.py` becomes much harder to explain and understand. I request to not get penalized for just using `.ipynb` files.
 
+- Python version compatible: `3.9.20` or `3.12.1`
+- Run this command in terminal to install required packages:
+```
+pip install -r requirements.txt
+```
+
 ## Project Structure
 
 The project is organized into three main Jupyter Notebooks: <br>
