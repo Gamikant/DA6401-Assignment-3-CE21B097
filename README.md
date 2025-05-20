@@ -4,7 +4,8 @@ This project implements and evaluates various Recurrent Neural Network (RNN) bas
 
 ## Project Structure
 
-The project is organized into three main Jupyter Notebooks:
+The project is organized into three main Jupyter Notebooks: <br>
+In the first 2 notebooks, there are 2 options - 1) Do sweep over hyperparameters, 2) or directly test the best configuration of paramters on test data. 
 
 1.  **`Q1-Q2-Q3-Q4.ipynb`**:
     *   **Question 1**: Theoretical calculations for the number of computations and parameters in a basic RNN seq2seq model.
@@ -142,15 +143,3 @@ The project is divided into three Jupyter Notebooks, corresponding to different 
     *   Attention heatmaps from `Q5.ipynb`.
     *   Pseudo-attention heatmaps from `Q6.ipynb`.
 *   **Jupyter Notebooks**: Completed notebooks (`Q1-Q2-Q3-Q4.ipynb`, `Q5.ipynb`, `Q6.ipynb`) with code, outputs, and analyses.
-
-## Troubleshooting Common Issues
-
-*   **`NameError`**: Ensure all cells, especially those defining functions or global variables, are run in order from the top of the notebook.
-*   **Resource Exhaustion (OOM errors, CUDA errors)**:
-    *   Reduce `batch_size`.
-    *   Reduce `hidden_size` or `input_embedding_size`.
-    *   If running locally, ensure your GPU has enough memory. Consider TensorFlow's memory growth option (`os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'`).
-    *   Restart the Jupyter kernel.
-*   **W&B Login Issues**: Ensure you run `wandb.login()` and are authenticated.
-*   **File Not Found**: Double-check dataset paths and prediction file paths.
-*   **Devanagari Font Rendering in Plots**: Refer to the note in `Q6.ipynb` instructions for installing/configuring a Devanagari font for Matplotlib.
