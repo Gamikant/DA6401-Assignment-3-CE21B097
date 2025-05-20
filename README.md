@@ -5,8 +5,8 @@ This project implements and evaluates various Recurrent Neural Network (RNN) bas
 ## Project Structure
 
 The project is organized into three main Jupyter Notebooks: <br>
-**In the first 2 notebooks, there are 2 options** - 1) Do sweep over hyperparameters, 2) or directly test the best configuration of paramters on test data. <br>
-The last 2 cells of both notebooks give you that option with **(OR)** but please be aware that you have to provide your team (entity) and project name to be able log metrics of the sweep. The code you have to modify is the `Start the Sweep Agent` cell:
+- **In the first 2 notebooks, there are 2 options** - 1) Do sweep over hyperparameters, 2) or directly test the best configuration of paramters on test data. <br>
+- The last 2 cells of both notebooks give you that option with **(OR)** but please be aware that you have to provide your team (entity) and project name to be able log metrics of the sweep. The code you have to modify is the `Start the Sweep Agent` cell:
 ```python
 sweep_id = wandb.sweep(sweep_config, entity="<you_team_name>", project="<your_project_name>")
 
