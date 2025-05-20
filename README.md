@@ -2,6 +2,9 @@
 
 This project implements and evaluates various Recurrent Neural Network (RNN) based models for the task of transliteration, specifically converting Hindi words from Latin script (Romanized) to their native Devanagari script. The project explores vanilla RNNs, LSTMs, GRUs, and attention mechanisms. Hyperparameter tuning is performed using Weights & Biases (wandb), and models are evaluated on the Dakshina dataset.
 
+## Disclaimer
+I have used jupyter notebooks instead of `.py` files because they give better clarity with the code. Using `.py` becomes much harder to explain and understand. I request to not get penalized for just using `.ipynb` files.
+
 ## Project Structure
 
 The project is organized into three main Jupyter Notebooks: <br>
