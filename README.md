@@ -12,6 +12,7 @@ sweep_id = wandb.sweep(sweep_config, entity="<you_team_name>", project="<your_pr
 
 wandb.agent(sweep_id, function=train_evaluate, count=100)
 ```
+- In the next cell giving the **(OR)** option, you can change the best configuration manually to get test predictions of any model configuration you want.
 
 1.  **`Q1-Q2-Q3-Q4.ipynb`**:
     *   **Question 1**: Theoretical calculations for the number of computations and parameters in a basic RNN seq2seq model.
